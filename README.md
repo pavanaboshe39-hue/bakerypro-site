@@ -1,6 +1,6 @@
-# BakeryPro website
+# AboBake website
 
-The public home page and privacy policy for the BakeryPro app, served with GitHub Pages.
+The public home page and privacy policy for the AboBake app, served with GitHub Pages.
 
 - Home page: `index.html`
 - Privacy policy: `privacy.html`
