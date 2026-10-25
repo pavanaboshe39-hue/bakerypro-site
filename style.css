@@ -59,9 +59,23 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; font-weight: 500; line-hei
 .doc h1 { font-size: 36px; margin: 0 0 4px; }
 .doc h2 { font-size: 22px; margin: 32px 0 8px; }
 .doc .updated { color: var(--muted); margin: 0 0 24px; }
-.doc ul { padding-left: 20px; }
+.doc h3 { font-size: 17px; margin: 20px 0 6px; }
+.doc ul, .doc ol { padding-left: 20px; }
 .doc li { margin-bottom: 6px; }
+.doc a { overflow-wrap: anywhere; }
 .note { background: var(--accent-soft); border-radius: 14px; padding: 14px 16px; }
 
 footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; padding: 24px 0 40px; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+
+.badge-link { text-decoration: none; }
+.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; padding: 8px 0 40px; }
+.plans h3 { margin: 0 0 4px; font-size: 22px; }
+.plans .price { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
+.plans ul { margin: 0; padding-left: 18px; color: var(--text); font-size: 15px; }
+.plans li { margin-bottom: 4px; }
+.plans .pro { background: var(--espresso); border-color: var(--on-dark-accent); }
+.plans .pro h3 { color: #fff; }
+.plans .pro .price { color: var(--on-dark-accent); }
+.plans .pro ul { color: var(--on-dark); }
+h2.center { text-align: center; font-size: 28px; margin: 8px 0 20px; }
